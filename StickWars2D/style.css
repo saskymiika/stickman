@@ -5,16 +5,13 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 }
 
 #game-app {
     border: none;
     width: 100%;
     height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    overflow: hidden;
 }
 #game-app > canvas {
     border: none;

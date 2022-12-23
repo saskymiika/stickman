@@ -3,7 +3,7 @@ canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 const c = canvas.getContext('2d')
 
-let stickman = new Stickman(new Vector2(300, 300), 6)
+let stickman = new Stickman(new Vector2(UNIT*10, UNIT*20), 4)
 stickman.init()
 
 const render = () => {
